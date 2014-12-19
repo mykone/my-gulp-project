@@ -1,0 +1,26 @@
+doctype html
+html
+	head
+		title Hello World
+		link(href="css/bootstrap.min.css",rel="stylesheet")
+		link(href="main.css",rel="stylesheet")
+
+	body
+		.container
+			#new-product-toolbar-region
+				.well.col-lg-12
+					h1 Join us, in celebrating a new beginning
+					button.btn.btn-default.btn-lg#newProductButton
+						span.glyphicon.glyphicon-pencil
+						|  Wish us Well
+			.new-record
+			h1 Other Wishes
+			.content
+				.products-container
+					ul.products
+				.details-container
+			.clear
+			.version-container
+				span API Version:
+				span.version
+			script(src="app.js")

@@ -1,0 +1,20 @@
+.pull-left
+	a.name(href="#products/#{_id}", title="#{name}", name="name") #{name}
+//- .price #{price}
+.buttons.pull-right.hide
+		.btn.btn-danger#deleteButton Delete
+.clear
+.product-details
+	.close.pull-right X
+	.clear
+	.form-group
+		label Name
+		input.form-control.price(value='#{name}',name='name')#name
+	.form-group
+		label Price
+		input.form-control.price(value='#{price}',name='price')#price
+	.form-group
+		label Sku
+		input.form-control(value='#{sku}',name='sku')#sku
+	.form-group.text-right
+		.btn.btn-success.updateButton Update
