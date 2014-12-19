@@ -1,6 +1,14 @@
-## Building a RESTful API in 5 Minutes
+## My Starter Gulp Project
 
-Code from the video: [https://www.youtube.com/watch?v=p-x6WdwaJco](https://www.youtube.com/watch?v=p-x6WdwaJco)
+#### Tools
+- Node.js
+- Gulp
+- Browserify
+- Jade
+- CoffeeScript
+- Backbone
+- Marionette
+- node-restful
 
 #### Requirements
 * Node/ NPM
@@ -8,4 +16,4 @@ Code from the video: [https://www.youtube.com/watch?v=p-x6WdwaJco](https://www.y
 
 #### Install
 * npm install
-* node server.js
+* gulp
